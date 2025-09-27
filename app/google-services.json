@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "202625837335",
+    "firebase_url": "https://dsm-miniplayer-default-rtdb.firebaseio.com",
+    "project_id": "dsm-miniplayer",
+    "storage_bucket": "dsm-miniplayer.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202625837335:android:32ceab81d19605bbddef52",
+        "android_client_info": {
+          "package_name": "com.dsm.miniplayer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwv6YwbeYqDx0s8jbZTuvaGy8jzFd1Q50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
