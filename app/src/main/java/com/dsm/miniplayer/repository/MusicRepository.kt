@@ -10,6 +10,7 @@ class MusicRepository {
 
     suspend fun getSongs(): List<Song> {
         val snapshot = db.child("songs").get().await()
+        //.await() → convierte la operación asíncrona de Firebase en una suspend function gracias a Kotlin
         return snapshot.children.mapNotNull { it.getValue(Song::class.java) }
     }
 
