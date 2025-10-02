@@ -11,7 +11,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
 class MusicViewModel(
-    private val repo: MusicRepository = MusicRepository()
+    private val repo: MusicRepository
 ): ViewModel() {
         private val _songs = MutableStateFlow<List<Song>>(emptyList())
         val songs: StateFlow<List<Song>> = _songs

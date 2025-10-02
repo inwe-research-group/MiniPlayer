@@ -23,9 +23,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.dsm.firebaseauth.presentation.model.Song
+import org.koin.androidx.compose.koinViewModel
 
 @Composable
-fun MusicScreen(viewModel: MusicViewModel= MusicViewModel()) {
+fun MusicScreen(viewModel: MusicViewModel = koinViewModel()) {
     Column(
         modifier = Modifier
             .fillMaxSize()
